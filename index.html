@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>ALIGHT Dashboard</title>
+</head>
+<body>
+    <div class="container-fluid">
+      <!-- header dashboard -->
+        <div class="header slide-in-top">
+          <!-- blue to bar -->
+            <div class="top-bar">
+              <div class="logo">
+                <p >
+                  <span class="b-700">ALIGHT MEA </span>
+                  <span class="b-400">PORTAl</span></p>
+              </div>
+                <div class="avatar-block">
+                  <div class="setting">
+                    <img src="./img/settings.png" alt="Settings">
+                  </div>
+                  <span class="qustion">?</span>
+                  <span class="name">Nom et Prénom</span>
+                  <div class="avatar">
+                    <img src="./img/Ellipse 1.png" alt="user name">
+                  </div>
+                  
+                </div>
+            </div>
+            <!-- menu & logo dashboard -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="logo-btn">
+                <div class="logo">
+                  <img src="./img/alight-logo.png" alt="Alight." srcset=""> 
+                  <span class="bar-v disp-none"> </span>
+                  <p class="disp-none"><span>ALIGHT MEA </span>PORTAl</p>
+              </div>
+              
+              <!-- btn show menu in mobile -->
+              <div class="btn-show-menu">
+                <div class="collapse navbar-collapse desktop" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Companie</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Website</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">HelpDesk</a>
+                    </li>
+                    
+                  </ul>
+            </div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="info-site">
+                    <div class="suivi info-style">
+                      <a href="#"><i class="fa-regular fa-star"></i><span>Suivi</span></a>
+                    </div>
+                    <div class="partage info-style">
+                      <a href="#"><i class="fa-regular fa-share-from-square"></i><span>Partage</span></a>
+                    </div>
+                    </div>  
+              </div>
+
+             
+
+                
+              </div>
+                
+                   
+                <div class="collapse navbar-collapse mobile" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Companie</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Website</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">HelpDesk</a>
+                        </li>
+                        
+                      </ul>
+                </div>
+
+               
+                    
+            </nav>
+                
+        </div>
+        <!-- main -->
+        <div class="main ">
+          <div class="content">
+            <!-- banner vacation request-->
+            <div class="banner-block flip-in-hor-bottom">
+              <img src="./img/banner.png" class="banner" alt="" srcset="">
+              <img src="./img/Rectangle 2401.png" class="top-img-banner" alt="" srcset="">
+              <h2>VACATION REQUEST</h2>
+            </div>
+            <!-- liste of request -->
+            <div class="block-list-request">
+              <div class="leave-balance-block">
+                <div class="block-result">
+                  <span class="balance">LEAVE BALANCE</span>
+                  <div class="all-result">
+                    <div class="result ">
+                      <p>Current Year</p>
+                      <span>4</span>
+                    </div>
+                    <div class="result ">
+                      <p>Previous Year</p>
+                      <span>7</span>
+                    </div>
+                    <div class="result ">
+                      <p> Sickness</p>
+                      <span>4</span>
+                    </div>
+                    <div class="result ">
+                      <p>Credit</p>
+                      <span>7</span>
+                    </div>
+                    <div class="result ">
+                      <p>Additional</p>
+                      <span>4</span>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+              </div>
+              <div class="block-table-and-links">
+                <!-- links send & recovery -->
+                <div class="links">
+                    <a href="#" class="send-link links-request">Send a vacation  request</a>
+                    <a href="#" class="recovery-link links-request">Recovery request</a>
+                </div>
+                <div class="block-table">
+                  <!-- filters -->
+                  <div class="filters">
+                    <h4 class="align">FILTERS</h4>
+                    <div class="filter-status align">
+                      <span class="filters-name">Statut</Span>
+                      <select class="form-select form-select mb-3 cust-select" aria-label="Large select example">
+                        <option selected></option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select> 
+                    </div>
+                    <div class="filter-periode align"> 
+                      <span class="filters-name">Period : From</Span>
+                        <div class="cal">
+                          <input type="date" class="form-control cust-select date" aria-hidden="" value="">
+                        </div>
+                      </div>
+                        
+                    <div class="filter-periode align">    
+                      <span class="filters-name">To</Span>
+                        <div class="cal">
+                          <input type="date" class="form-control cust-select date" aria-hidden="" value="">
+                        </div>
+                    </div>
+                    <div class="align">
+                      <button type="button" class="btn btn-light ">Clear
+                        <i class="fa-sharp fa-solid fa-arrow-right-long"></i>
+                      </button>
+                    </div>
+                    
+                  </div>
+                  <!-- liste of request -->
+                  <div class="table-responsive">
+                    <table class="table table-striped ">
+                      <thead>
+                        <tr>
+                          <th scope="col"></th>
+                          <th scope="col">Vacation Type</th>
+                          <th scope="col">Start date</th>
+                          <th scope="col">End date</th>
+                          <th scope="col">Number of days</th>
+                          <th scope="col">Approval status</th>
+                          <th scope="col">Détails</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr >
+                          <td class="paperclip center-td" id="01">
+                            <a href="#">
+                              <img src="./img/paperclip.png" alt="File" srcset="">
+                            </a>
+                          </th>
+                          <td class="center-td paid-leade" id="02">Paid leave</td>
+                          <td class="center-td start-date" id="03">22/12/2021</td>
+                          <td class="center-td end-date" id="04">23/11/2021</td>
+                          <td class="center-td nb-days" id="05">3</td>
+                          <td class="center-td status" id="06">Current</td>
+                          <td class="center-td details" id="07">
+                            <a href="#" class="btn-detail" id="0" onclick="getDialog('02','03','04','05','06')" >
+                              <i class="fa-solid fa-list-ul"></i>
+                            </a>
+                          </td>
+                        </tr>
+
+                        <tr >
+                          <td class="paperclip center-td" id="11">
+                            <a href="#">
+                              <img src="./img/paperclip.png" alt="File" srcset="">
+                            </a>
+                          </th>
+                          <td class="center-td paid-leade" id="12">Paid leave</td>
+                          <td class="center-td start-date" id="13">24/11/2021</td>
+                          <td class="center-td end-date" id="14">28/11/2021</td>
+                          <td class="center-td nb-days" id="15">5</td>
+                          <td class="center-td status" id="16">Validate</td>
+                          <td class="center-td details" id="17">
+                            <a href="#" class="btn-detail" id="1" onclick="getDialog('12','13','14','15','16')" >
+                              <i class="fa-solid fa-list-ul"></i>
+                            </a>
+                          </td>
+                        </tr>
+                       
+                        <tr >
+                          <td class="paperclip center-td" id="21">
+                            <a href="#">
+                              <img src="./img/paperclip.png" alt="File" srcset="">
+                            </a>
+                          </th>
+                          <td class="center-td paid-leade" id="22">Paid leave</td>
+                          <td class="center-td start-date" id="23">22/12/2021</td>
+                          <td class="center-td end-date" id="24">23/11/2021</td>
+                          <td class="center-td nb-days" id="25">3</td>
+                          <td class="center-td status" id="26">Current</td>
+                          <td class="center-td details" id="27">
+                            <a href="#" class="btn-detail" id="2" onclick="getDialog('22','23','24','25','26')" >
+                              <i class="fa-solid fa-list-ul"></i>
+                            </a>
+                          </td>
+                        </tr>
+                       
+                        <tr >
+                          <td class="paperclip center-td" id="31">
+                            <a href="#">
+                              <img src="./img/paperclip.png" alt="File" srcset="">
+                            </a>
+                          </th>
+                          <td class="center-td paid-leade" id="32">Paid leave</td>
+                          <td class="center-td start-date" id="33">24/11/2021</td>
+                          <td class="center-td end-date" id="34">28/11/2021</td>
+                          <td class="center-td nb-days" id="35">5</td>
+                          <td class="center-td status" id="36">Validate</td>
+                          <td class="center-td details" id="37">
+                            <a href="#" class="btn-detail" id="3" onclick="getDialog('32','33','34','35','36')" >
+                              <i class="fa-solid fa-list-ul"></i>
+                            </a>
+                          </td>
+                        </tr>
+                       
+                      </tbody>
+                    </table>
+                    <!-- pagination -->
+                    <div class="pagination">
+                      <a href="#">&laquo;</a>
+                      <a href="#"><i class="fa-solid fa-angle-left"></i></a>
+                      <a href="#">1</a>
+                      <a href="#" class="active">2</a>
+                       <span>
+                        ...
+                       </span>
+                      
+                      <a href="#">5</a>
+                      <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+                      <a href="#">&raquo;</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Dialog -->
+        <div class="container-dialog remove-dialog" id="dialog-ref01">
+          <div class="dialog-content puff-in-center">
+            <div class="edit-form">
+             <button type="button" class="btn-close" aria-label="Close" id="dialog-ref02"></button>
+              <div class="header-form">
+                  <img src="./img/ion_list-circle-outline.png" width="32" height="32" alt="" srcset="">
+                  <span class="title-dialog">Edit vacation details</span>
+              </div>
+              <div class="consultant-block">
+                <h4>Name of cosultant</h4>
+              </div>
+             
+              <div class="form-block"> 
+                <!-- left block -->
+                <div class="column">
+                  <div class="input-block">
+                    <span>Vacation type</span>
+                    <select class="form-select form-select mb-3 cust-select" id="vacation-type" aria-label="Large select example">
+                      <option value="0" selected></option>
+                      <option value="1">Paid leave</option>
+                      <option value="2">Paid leave	op 2</option>
+                      <option value="3">Paid leave	op 3</option>
+                    </select> 
+                  </div>
+                  <div class="input-block">
+                    <span>Start date</span>
+                    <div class="cal">
+                    <input type="date" class="form-control cust-select date" id="start-date-dial" aria-hidden="" value="">
+                    </div>
+                  </div>
+                  <div class="input-block">
+                    <span>Request’s Date</span>
+                    <div class="cal">
+                    <input type="date" class="form-control cust-select date" id="request-date" aria-hidden="" value="">
+                    </div>
+                  </div>
+                  <div class="input-block">
+                    <span>Approval  Date</span>
+                    <div class="cal">
+                    <input type="date" class="form-control cust-select date" id="approval-date" aria-hidden="" value="">
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="column">
+                  <div class="input-block">
+                    <span>Number of days</span>
+                    <input type="text" class="form-control cust-select date" id="num-days" disabled aria-hidden="" value="">
+                  </div>
+                  <div class="input-block">
+                    <span>End date</span>
+                    <div class="cal">
+                    <input type="date" class="form-control cust-select date" id="end-date-dial" aria-hidden="" value="">
+                    </div>
+                  </div>
+                  <div class="input-block">
+                    <span>Approval status</span>
+                    <select class="form-select form-select mb-3 cust-select" id="approval-status" aria-label="Large select example">
+                      <option selected></option>
+                      <option value="1">Current</option>
+                      <option value="2">Validate</option>
+                    </select> 
+                  </div>
+                  <div class="input-block">
+                    <span>Intérim</span>
+                    <select class="form-select form-select mb-3 cust-select" id="interim" aria-label="Large select example">
+                      <option selected></option>
+                      <option value="1">Sami</option>
+                      <option value="2">Ahmed</option>
+                      <option value="3">Houssem </option>
+                      <option value="4">Souha hkimi</option>
+                    </select> 
+                  </div>
+                </div>
+              </div>
+              <!--
+                for test
+                <input type="date" id="currentDate" class="cust-select date form-control ">
+              -->
+              <button type="button" class="btn btn-light">Save
+                <i class="fa-sharp fa-solid fa-arrow-right-long"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./dist/js/dialog.js"></script>
+  </body>
+</html>
